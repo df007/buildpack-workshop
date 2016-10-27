@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# bin/detect <build-dir>
+# build-dir contains the app that deployed with cf push 
+
+if [ -d $1/BOOT-INF ]; then
+  echo "boot application" && exit 0
+else
+  echo "no" && exit 1
+fi
