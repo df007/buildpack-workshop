@@ -1,3 +1,0 @@
-mkdir .jre
-tar -xzf jre-8u51-linux-x64.tar.gz -C .jre
-rm  -f jre-8u51-linux-x64.tar.gz
